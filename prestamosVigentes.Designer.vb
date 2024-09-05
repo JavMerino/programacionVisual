@@ -37,9 +37,9 @@ Partial Class prestamosVigentes
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(46, 32)
+        Label1.Location = New Point(46, 28)
         Label1.Name = "Label1"
-        Label1.Size = New Size(123, 17)
+        Label1.Size = New Size(110, 15)
         Label1.TabIndex = 0
         Label1.Text = "Prestamos Vigentes"
         ' 
@@ -48,43 +48,43 @@ Partial Class prestamosVigentes
         dgvPrestVigent.AllowUserToAddRows = False
         dgvPrestVigent.AllowUserToDeleteRows = False
         dgvPrestVigent.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        dgvPrestVigent.Location = New Point(75, 136)
+        dgvPrestVigent.Location = New Point(75, 120)
         dgvPrestVigent.Name = "dgvPrestVigent"
         dgvPrestVigent.ReadOnly = True
-        dgvPrestVigent.Size = New Size(441, 150)
+        dgvPrestVigent.Size = New Size(441, 132)
         dgvPrestVigent.TabIndex = 1
         ' 
         ' txtFiltro
         ' 
-        txtFiltro.Location = New Point(110, 78)
+        txtFiltro.Location = New Point(110, 69)
         txtFiltro.Name = "txtFiltro"
-        txtFiltro.Size = New Size(205, 25)
+        txtFiltro.Size = New Size(205, 23)
         txtFiltro.TabIndex = 2
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(58, 81)
+        Label2.Location = New Point(58, 71)
         Label2.Name = "Label2"
-        Label2.Size = New Size(46, 17)
+        Label2.Size = New Size(42, 15)
         Label2.TabIndex = 3
         Label2.Text = "Buscar"
         ' 
         ' btnEntregar
         ' 
         btnEntregar.BackColor = SystemColors.Control
-        btnEntregar.Location = New Point(400, 329)
+        btnEntregar.Location = New Point(400, 290)
         btnEntregar.Name = "btnEntregar"
-        btnEntregar.Size = New Size(96, 37)
+        btnEntregar.Size = New Size(96, 33)
         btnEntregar.TabIndex = 4
         btnEntregar.Text = "Entregado"
         btnEntregar.UseVisualStyleBackColor = False
         ' 
         ' btnNotificar
         ' 
-        btnNotificar.Location = New Point(274, 329)
+        btnNotificar.Location = New Point(274, 290)
         btnNotificar.Name = "btnNotificar"
-        btnNotificar.Size = New Size(87, 37)
+        btnNotificar.Size = New Size(87, 33)
         btnNotificar.TabIndex = 5
         btnNotificar.Text = "Notificar"
         btnNotificar.UseVisualStyleBackColor = True
@@ -95,9 +95,9 @@ Partial Class prestamosVigentes
         ' 
         ' prestamosVigentes
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 17.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(542, 377)
+        ClientSize = New Size(542, 333)
         Controls.Add(btnNotificar)
         Controls.Add(btnEntregar)
         Controls.Add(Label2)

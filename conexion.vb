@@ -2,7 +2,7 @@
 
 Public Class Conexion
     ' Cadena de conexión
-    Private connectionString As String = "Server=MERINO\SQLEXPRESS;Database=prestamoLibro;Trusted_Connection=True;"
+    Private connectionString As String = "Server=LAPTOP-18GHK3E1\SQLEXPRESS;Database=prestamoLibro;Trusted_Connection=True;"
     Private connection As SqlConnection
 
     ' Constructor de la clase

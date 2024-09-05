@@ -9,22 +9,20 @@ Public Class prestamosVigentes
         CargarPrestamosVigentes(filtrandoPa)
     End Sub
 
-
-
     Private Sub CargarPrestamosVigentes(filtro As String)
         Dim conn As SqlConnection = conexion.AbrirConexion()
         Dim query As String
 
         ' Consulta SQL con filtro por título si se proporciona
         If filtro = "" Then
-            query = "SELECT Libro.Titulo, Prestamo.FechaPrest, Prestamo.FechaLimit,
+            query = "SELECT Libro.Titulo, Prestamo.FechaPrest, Prestamo.FechaLimit
                      FROM Prestamo 
                      INNER JOIN PrestamoEjemplar ON Prestamo.idPrestamo = PrestamoEjemplar.idPrestamo
                      INNER JOIN Ejemplar ON PrestamoEjemplar.idEjemplar = Ejemplar.idEjemplar
                      INNER JOIN Libro ON Ejemplar.idLibro = Libro.idLibro
                      WHERE Prestamo.Estado = 1;"
         Else
-            query = $"SELECT Libro.Titulo, Prestamo.FechaPrest, Prestamo.FechaLimit, 
+            query = $"SELECT Libro.Titulo, Prestamo.FechaPrest, Prestamo.FechaLimit
                      FROM Prestamo 
                      INNER JOIN PrestamoEjemplar ON Prestamo.idPrestamo = PrestamoEjemplar.idPrestamo
                      INNER JOIN Ejemplar ON PrestamoEjemplar.idEjemplar = Ejemplar.idEjemplar
@@ -48,4 +46,11 @@ Public Class prestamosVigentes
         End Try
     End Sub
 
+    Private Sub txtFiltro_TextChanged(sender As Object, e As EventArgs) Handles txtFiltro.TextChanged
+        CargarPrestamosVigentes(txtFiltro.Text())
+    End Sub
+
+    Private Sub dgvPrestVigent_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvPrestVigent.CellContentClick
+
+    End Sub
 End Class

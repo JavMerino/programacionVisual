@@ -36,9 +36,8 @@ Partial Class AgregarLibro
         btnAgregar = New Button()
         lblAgregarLibro = New Label()
         lblAutor = New Label()
-        txtAutor = New TextBox()
         btnAgregarAutor = New Button()
-        lbAutores = New ListBox()
+        cbAutor = New ComboBox()
         CType(nudCantidad, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -127,7 +126,7 @@ Partial Class AgregarLibro
         ' 
         ' btnCancelar
         ' 
-        btnCancelar.Location = New Point(226, 490)
+        btnCancelar.Location = New Point(214, 399)
         btnCancelar.Name = "btnCancelar"
         btnCancelar.Size = New Size(75, 23)
         btnCancelar.TabIndex = 10
@@ -136,7 +135,7 @@ Partial Class AgregarLibro
         ' 
         ' btnAgregar
         ' 
-        btnAgregar.Location = New Point(102, 490)
+        btnAgregar.Location = New Point(90, 399)
         btnAgregar.Name = "btnAgregar"
         btnAgregar.Size = New Size(75, 23)
         btnAgregar.TabIndex = 11
@@ -156,18 +155,11 @@ Partial Class AgregarLibro
         ' lblAutor
         ' 
         lblAutor.AutoSize = True
-        lblAutor.Location = New Point(57, 329)
+        lblAutor.Location = New Point(62, 329)
         lblAutor.Name = "lblAutor"
         lblAutor.Size = New Size(40, 15)
         lblAutor.TabIndex = 13
         lblAutor.Text = "Autor:"
-        ' 
-        ' txtAutor
-        ' 
-        txtAutor.Location = New Point(146, 326)
-        txtAutor.Name = "txtAutor"
-        txtAutor.Size = New Size(130, 23)
-        txtAutor.TabIndex = 14
         ' 
         ' btnAgregarAutor
         ' 
@@ -178,24 +170,22 @@ Partial Class AgregarLibro
         btnAgregarAutor.Text = "Agregar autor"
         btnAgregarAutor.UseVisualStyleBackColor = True
         ' 
-        ' lbAutores
+        ' cbAutor
         ' 
-        lbAutores.FormattingEnabled = True
-        lbAutores.ItemHeight = 15
-        lbAutores.Location = New Point(146, 355)
-        lbAutores.Name = "lbAutores"
-        lbAutores.Size = New Size(130, 94)
-        lbAutores.TabIndex = 16
+        cbAutor.FormattingEnabled = True
+        cbAutor.Location = New Point(146, 326)
+        cbAutor.Name = "cbAutor"
+        cbAutor.Size = New Size(128, 23)
+        cbAutor.TabIndex = 16
         ' 
         ' AgregarLibro
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.GradientInactiveCaption
-        ClientSize = New Size(512, 567)
-        Controls.Add(lbAutores)
+        ClientSize = New Size(442, 493)
+        Controls.Add(cbAutor)
         Controls.Add(btnAgregarAutor)
-        Controls.Add(txtAutor)
         Controls.Add(lblAutor)
         Controls.Add(lblAgregarLibro)
         Controls.Add(btnAgregar)
@@ -231,7 +221,6 @@ Partial Class AgregarLibro
     Friend WithEvents btnAgregar As Button
     Friend WithEvents lblAgregarLibro As Label
     Friend WithEvents lblAutor As Label
-    Friend WithEvents txtAutor As TextBox
     Friend WithEvents btnAgregarAutor As Button
-    Friend WithEvents lbAutores As ListBox
+    Friend WithEvents cbAutor As ComboBox
 End Class

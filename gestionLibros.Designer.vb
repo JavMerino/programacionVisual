@@ -23,13 +23,6 @@ Partial Class gestionLibros
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         lblGestionLibros = New Label()
-        dgvLibros = New DataGridView()
-        cId = New DataGridViewTextBoxColumn()
-        cTitulo = New DataGridViewTextBoxColumn()
-        cCantidad = New DataGridViewTextBoxColumn()
-        cCategoria = New DataGridViewTextBoxColumn()
-        cEditorial = New DataGridViewTextBoxColumn()
-        cAccionEliminar = New DataGridViewButtonColumn()
         lblBuscar = New Label()
         txtBuscar = New TextBox()
         btnAgregarLibro = New Button()
@@ -37,8 +30,10 @@ Partial Class gestionLibros
         ToolStripStatusLabel1 = New ToolStripStatusLabel()
         lblFiltrar = New Label()
         cbFiltro = New ComboBox()
-        CType(dgvLibros, ComponentModel.ISupportInitialize).BeginInit()
+        BackgroundWorker1 = New ComponentModel.BackgroundWorker()
+        dgvLibros = New DataGridView()
         StatusStrip1.SuspendLayout()
+        CType(dgvLibros, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' lblGestionLibros
@@ -51,51 +46,10 @@ Partial Class gestionLibros
         lblGestionLibros.TabIndex = 1
         lblGestionLibros.Text = "Gestión de Libros"
         ' 
-        ' dgvLibros
-        ' 
-        dgvLibros.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        dgvLibros.Columns.AddRange(New DataGridViewColumn() {cId, cTitulo, cCantidad, cCategoria, cEditorial, cAccionEliminar})
-        dgvLibros.Location = New Point(38, 149)
-        dgvLibros.Name = "dgvLibros"
-        dgvLibros.Size = New Size(642, 216)
-        dgvLibros.TabIndex = 2
-        ' 
-        ' cId
-        ' 
-        cId.HeaderText = "ID"
-        cId.Name = "cId"
-        ' 
-        ' cTitulo
-        ' 
-        cTitulo.HeaderText = "Título"
-        cTitulo.Name = "cTitulo"
-        ' 
-        ' cCantidad
-        ' 
-        cCantidad.HeaderText = "Cantidad"
-        cCantidad.Name = "cCantidad"
-        ' 
-        ' cCategoria
-        ' 
-        cCategoria.HeaderText = "Categoría"
-        cCategoria.Name = "cCategoria"
-        ' 
-        ' cEditorial
-        ' 
-        cEditorial.HeaderText = "Editorial"
-        cEditorial.Name = "cEditorial"
-        ' 
-        ' cAccionEliminar
-        ' 
-        cAccionEliminar.HeaderText = "Acción"
-        cAccionEliminar.Name = "cAccionEliminar"
-        cAccionEliminar.Text = "Eliminar"
-        cAccionEliminar.UseColumnTextForButtonValue = True
-        ' 
         ' lblBuscar
         ' 
         lblBuscar.AutoSize = True
-        lblBuscar.Location = New Point(36, 97)
+        lblBuscar.Location = New Point(42, 95)
         lblBuscar.Name = "lblBuscar"
         lblBuscar.Size = New Size(45, 15)
         lblBuscar.TabIndex = 5
@@ -103,7 +57,7 @@ Partial Class gestionLibros
         ' 
         ' txtBuscar
         ' 
-        txtBuscar.Location = New Point(87, 94)
+        txtBuscar.Location = New Point(93, 92)
         txtBuscar.Name = "txtBuscar"
         txtBuscar.Size = New Size(116, 23)
         txtBuscar.TabIndex = 4
@@ -120,7 +74,7 @@ Partial Class gestionLibros
         ' StatusStrip1
         ' 
         StatusStrip1.Items.AddRange(New ToolStripItem() {ToolStripStatusLabel1})
-        StatusStrip1.Location = New Point(0, 414)
+        StatusStrip1.Location = New Point(0, 562)
         StatusStrip1.Name = "StatusStrip1"
         StatusStrip1.Size = New Size(714, 22)
         StatusStrip1.TabIndex = 7
@@ -135,7 +89,7 @@ Partial Class gestionLibros
         ' lblFiltrar
         ' 
         lblFiltrar.AutoSize = True
-        lblFiltrar.Location = New Point(248, 100)
+        lblFiltrar.Location = New Point(255, 95)
         lblFiltrar.Name = "lblFiltrar"
         lblFiltrar.Size = New Size(58, 15)
         lblFiltrar.TabIndex = 8
@@ -144,36 +98,43 @@ Partial Class gestionLibros
         ' cbFiltro
         ' 
         cbFiltro.FormattingEnabled = True
-        cbFiltro.Location = New Point(321, 97)
+        cbFiltro.Location = New Point(332, 92)
         cbFiltro.Name = "cbFiltro"
         cbFiltro.Size = New Size(121, 23)
         cbFiltro.TabIndex = 9
+        ' 
+        ' dgvLibros
+        ' 
+        dgvLibros.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        dgvLibros.Location = New Point(42, 166)
+        dgvLibros.Name = "dgvLibros"
+        dgvLibros.Size = New Size(638, 356)
+        dgvLibros.TabIndex = 10
         ' 
         ' gestionLibros
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.GradientInactiveCaption
-        ClientSize = New Size(714, 436)
+        ClientSize = New Size(714, 584)
+        Controls.Add(dgvLibros)
         Controls.Add(cbFiltro)
         Controls.Add(lblFiltrar)
         Controls.Add(StatusStrip1)
         Controls.Add(btnAgregarLibro)
         Controls.Add(lblBuscar)
         Controls.Add(txtBuscar)
-        Controls.Add(dgvLibros)
         Controls.Add(lblGestionLibros)
         Name = "gestionLibros"
         Text = "gestionLibros"
-        CType(dgvLibros, ComponentModel.ISupportInitialize).EndInit()
         StatusStrip1.ResumeLayout(False)
         StatusStrip1.PerformLayout()
+        CType(dgvLibros, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
     Friend WithEvents lblGestionLibros As Label
-    Friend WithEvents dgvLibros As DataGridView
     Friend WithEvents lblBuscar As Label
     Friend WithEvents txtBuscar As TextBox
     Friend WithEvents btnAgregarLibro As Button
@@ -181,10 +142,6 @@ Partial Class gestionLibros
     Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
     Friend WithEvents lblFiltrar As Label
     Friend WithEvents cbFiltro As ComboBox
-    Friend WithEvents cId As DataGridViewTextBoxColumn
-    Friend WithEvents cTitulo As DataGridViewTextBoxColumn
-    Friend WithEvents cCantidad As DataGridViewTextBoxColumn
-    Friend WithEvents cCategoria As DataGridViewTextBoxColumn
-    Friend WithEvents cEditorial As DataGridViewTextBoxColumn
-    Friend WithEvents cAccionEliminar As DataGridViewButtonColumn
+    Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents dgvLibros As DataGridView
 End Class

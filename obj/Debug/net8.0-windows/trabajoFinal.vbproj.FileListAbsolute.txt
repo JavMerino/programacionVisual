@@ -1,0 +1,44 @@
+C:\Users\Javier\source\repos\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.menuPrincipal.resources
+C:\Users\Javier\source\repos\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.regPrestamo.resources
+C:\Users\Javier\source\repos\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.vbproj.GenerateResource.cache
+C:\Users\Javier\source\repos\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javier\source\repos\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.AssemblyInfoInputs.cache
+C:\Users\Javier\source\repos\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.AssemblyInfo.vb
+C:\Users\Javier\source\repos\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.vbproj.CoreCompileInputs.cache
+C:\Users\Javier\source\repos\trabajoFinal\bin\Debug\net8.0-windows\trabajoFinal.exe
+C:\Users\Javier\source\repos\trabajoFinal\bin\Debug\net8.0-windows\trabajoFinal.deps.json
+C:\Users\Javier\source\repos\trabajoFinal\bin\Debug\net8.0-windows\trabajoFinal.runtimeconfig.json
+C:\Users\Javier\source\repos\trabajoFinal\bin\Debug\net8.0-windows\trabajoFinal.dll
+C:\Users\Javier\source\repos\trabajoFinal\bin\Debug\net8.0-windows\trabajoFinal.pdb
+C:\Users\Javier\source\repos\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.dll
+C:\Users\Javier\source\repos\trabajoFinal\obj\Debug\net8.0-windows\refint\trabajoFinal.dll
+C:\Users\Javier\source\repos\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.pdb
+C:\Users\Javier\source\repos\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.genruntimeconfig.cache
+C:\Users\Javier\source\repos\trabajoFinal\obj\Debug\net8.0-windows\ref\trabajoFinal.dll
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.menuPrincipal.resources
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.prestamosVigentes.resources
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.regPrestamo.resources
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.vbproj.GenerateResource.cache
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.AssemblyInfoInputs.cache
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.AssemblyInfo.vb
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.vbproj.CoreCompileInputs.cache
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.sourcelink.json
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.dll
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\obj\Debug\net8.0-windows\refint\trabajoFinal.dll
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.pdb
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\bin\Debug\net8.0-windows\trabajoFinal.exe
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\bin\Debug\net8.0-windows\trabajoFinal.deps.json
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\bin\Debug\net8.0-windows\trabajoFinal.runtimeconfig.json
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\bin\Debug\net8.0-windows\trabajoFinal.dll
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\bin\Debug\net8.0-windows\trabajoFinal.pdb
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.vbproj.AssemblyReference.cache
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\obj\Debug\net8.0-windows\trabajoF.07BD97E2.Up2Date
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\obj\Debug\net8.0-windows\trabajoFinal.genruntimeconfig.cache
+C:\Users\Javier\Desktop\UNP\Programacion visual\trabajo\trabajoFinal\obj\Debug\net8.0-windows\ref\trabajoFinal.dll

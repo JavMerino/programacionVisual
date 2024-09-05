@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|c:\\users\\javier\\desktop\\unp\\programacion visual\\trabajo\\trabajofinal\\regprestamo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|solutionrelative:regprestamo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|c:\\users\\javier\\desktop\\unp\\programacion visual\\trabajo\\trabajofinal\\vistalector.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|solutionrelative:vistalector.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|c:\\users\\javier\\desktop\\unp\\programacion visual\\trabajo\\trabajofinal\\prestamosvigentes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|solutionrelative:prestamosvigentes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|c:\\users\\javier\\desktop\\unp\\programacion visual\\trabajo\\trabajofinal\\menuprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|solutionrelative:menuprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|c:\\users\\javier\\desktop\\unp\\programacion visual\\trabajo\\trabajofinal\\regprestamo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|solutionrelative:regprestamo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|c:\\users\\javier\\desktop\\unp\\programacion visual\\trabajo\\trabajofinal\\regprestamo.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|solutionrelative:regprestamo.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|c:\\users\\javier\\desktop\\unp\\programacion visual\\trabajo\\trabajofinal\\prestamosvigentes.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|solutionrelative:prestamosvigentes.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|c:\\users\\javier\\desktop\\unp\\programacion visual\\trabajo\\trabajofinal\\prestamosvigentes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|solutionrelative:prestamosvigentes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|c:\\users\\javier\\desktop\\unp\\programacion visual\\trabajo\\trabajofinal\\menuprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|solutionrelative:menuprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|c:\\users\\javier\\desktop\\unp\\programacion visual\\trabajo\\trabajofinal\\conexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FDFDA919-3A16-44D6-8FE4-C37DBF4A1C68}|trabajoFinal.vbproj|solutionrelative:conexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vistaLector.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\vistaLector.vb",
+              "RelativeDocumentMoniker": "vistaLector.vb",
+              "ToolTip": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\vistaLector.vb [Dise\u00F1o]",
+              "RelativeToolTip": "vistaLector.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-05T04:07:33.325Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "regPrestamo.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\regPrestamo.Designer.vb",
+              "RelativeDocumentMoniker": "regPrestamo.Designer.vb",
+              "ToolTip": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\regPrestamo.Designer.vb",
+              "RelativeToolTip": "regPrestamo.Designer.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-05T04:05:24.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "regPrestamo.vb",
+              "DocumentMoniker": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\regPrestamo.vb",
+              "RelativeDocumentMoniker": "regPrestamo.vb",
+              "ToolTip": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\regPrestamo.vb",
+              "RelativeToolTip": "regPrestamo.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-05T04:05:29.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "menuPrincipal.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\menuPrincipal.vb",
+              "RelativeDocumentMoniker": "menuPrincipal.vb",
+              "ToolTip": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\menuPrincipal.vb [Dise\u00F1o]",
+              "RelativeToolTip": "menuPrincipal.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-05T04:05:19.15Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "prestamosVigentes.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\prestamosVigentes.Designer.vb",
+              "RelativeDocumentMoniker": "prestamosVigentes.Designer.vb",
+              "ToolTip": "prestamosVigentes.Designer.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "OverriddenGroupName": "",
+              "OverriddenToolTip": "prestamosVigentes.Designer.vb",
+              "WhenOpened": "2024-09-05T04:03:28.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "prestamosVigentes.vb",
+              "DocumentMoniker": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\prestamosVigentes.vb",
+              "RelativeDocumentMoniker": "prestamosVigentes.vb",
+              "ToolTip": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\prestamosVigentes.vb",
+              "RelativeToolTip": "prestamosVigentes.vb",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBoAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-05T02:03:03.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "regPrestamo.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\regPrestamo.vb",
+              "RelativeDocumentMoniker": "regPrestamo.vb",
+              "ToolTip": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\regPrestamo.vb [Dise\u00F1o]",
+              "RelativeToolTip": "regPrestamo.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-05T01:52:10.272Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "prestamosVigentes.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\prestamosVigentes.vb",
+              "RelativeDocumentMoniker": "prestamosVigentes.vb",
+              "ToolTip": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\prestamosVigentes.vb [Dise\u00F1o]",
+              "RelativeToolTip": "prestamosVigentes.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-05T01:52:08.054Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "menuPrincipal.vb",
+              "DocumentMoniker": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\menuPrincipal.vb",
+              "RelativeDocumentMoniker": "menuPrincipal.vb",
+              "ToolTip": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\menuPrincipal.vb",
+              "RelativeToolTip": "menuPrincipal.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-05T02:33:14.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "conexion.vb",
+              "DocumentMoniker": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\conexion.vb",
+              "RelativeDocumentMoniker": "conexion.vb",
+              "ToolTip": "C:\\Users\\Javier\\Desktop\\UNP\\Programacion visual\\trabajo\\trabajoFinal\\conexion.vb",
+              "RelativeToolTip": "conexion.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-05T02:04:00.457Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

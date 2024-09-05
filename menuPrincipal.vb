@@ -9,16 +9,13 @@
     End Sub
 
     Private Sub btnGestLibros_Click(sender As Object, e As EventArgs) Handles btnGestLibros.Click
-
+        gestionLibros.Show()
+        Me.Hide()
     End Sub
 
     Private Sub btnHistorial_Click(sender As Object, e As EventArgs) Handles btnHistorial.Click
 
     End Sub
 
-    Private Sub btnLibrosVigentes_Click(sender As Object, e As EventArgs) Handles btnHistorial.Click
-        LibrosVigentes.Show()
-        Me.Hide()
-    End Sub
 
 End Class
